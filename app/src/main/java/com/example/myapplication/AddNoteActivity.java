@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
@@ -32,7 +33,7 @@ public class AddNoteActivity extends AppCompatActivity {
         });
     }
 
-    public void addNote() {
+    public void addNote(View view) {
         String tt = title.toString();
         String cc = content.toString();
         Note note = new Note(tt, cc);

@@ -20,6 +20,7 @@ public class NoteStorage {
     }
     public void addNote(Note note){
         noteList.add(note);
+
     }
 
 }
