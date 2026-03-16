@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class NoteStorage {
     private static NoteStorage noteStorage = null;
-    private ArrayList<Note> noteList;
+    private ArrayList<Note> noteList = new ArrayList<>();
 
     private NoteStorage(){
 
