@@ -34,8 +34,8 @@ public class AddNoteActivity extends AppCompatActivity {
     }
 
     public void addNote(View view) {
-        String tt = title.toString();
-        String cc = content.toString();
+        String tt = String.valueOf(title.getText());
+        String cc = String.valueOf(content.getText());
         Note note = new Note(tt, cc);
         storage.addNote(note);
 
